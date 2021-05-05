@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/sbmedina/Become-a-QA-Week-13#readme",
   "dependencies": {
+    "@wdio/cli": "^7.5.3",
     "npm": "^7.11.2"
   },
   "devDependencies": {
