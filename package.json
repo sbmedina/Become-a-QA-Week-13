@@ -1,0 +1,33 @@
+{
+  "name": "become-a-qa-week-13",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --color",
+    "test-coverage": "jest --coverage --color"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbmedina/Become-a-QA-Week-13.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sbmedina/Become-a-QA-Week-13/issues"
+  },
+  "homepage": "https://github.com/sbmedina/Become-a-QA-Week-13#readme",
+  "dependencies": {
+    "npm": "^7.11.2"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.1",
+    "babel-jest": "^26.6.3",
+    "jest": "^26.6.3"
+  }
+}
